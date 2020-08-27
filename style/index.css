@@ -104,3 +104,9 @@
     right: 40px;
     color: #a7d2ea;
 }
+
+a.anchor{
+    display: block;
+    padding-top: 70px;
+    margin-top: -70px;
+}

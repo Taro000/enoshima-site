@@ -34,7 +34,7 @@
 <body>
     <div class="jumbotron jumbotron-fluid js-mainVisual" style="background-image: url('./img/3800201_m.jpg'); background-size: cover; background-position: center; color: white; height: 800px; margin-bottom: 0; padding-bottom: 0;">
         <header class="container-fluid basic-font fixed-top js-header" style="color: white;">
-            <div class="navbar navbar-expand-lg navbar-dark py-5">
+            <div class="navbar navbar-expand-lg navbar-dark py-4">
                 <a class="navbar-brand mx-4" href="#"><h3>江ノ島 - enoshima</h3></a>
                 <button class="navbar-toggler mx-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -59,87 +59,96 @@
             </div>
         </header>
     </div>
-    <div class="container basic-font">
-        <h2 class="display-6 text-center py-5 my-5 text-muted" id="siteseeing">観光 - Sightseeing</h2>
-        <ul class="nav justify-content-center flex-column flex-md-row nav-fill site-nav">
-            <li class="nav-item">
-                <a class="nav-link text-muted active tab-nav" href="#shrine" data-toggle="tab">江ノ島神社</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-muted tab-nav" href="#samueru" data-toggle="tab">サムエルコッキング苑</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-muted tab-nav" href="#seecandle" data-toggle="tab">江ノ島シーキャンドル</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-muted tab-nav" href="#uraiso" data-toggle="tab">裏磯</a>
-            </li>
-        </ul>
-
-        <div class="tab-content py-5 text-muted">
-            <div class="tab-pane active" id="shrine">
-                <div class="card mb-3"></div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="./img/jinja.jpg" alt="" class="card-img">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h3 class="card-title">江ノ島神社</h3>
-                            <p class="card-text text-justify">ご祭神は、天照大神あまてらすおおみかみが須佐之男命すさのおのみことと誓約された時に生まれた神で、三姉妹の女神様です。奥津宮の多紀理比賣命・中津宮の市寸島比賣命・辺津宮の田寸津比賣命の三女神を江島大神と称しています。古くは江島明神えのしまみょうじんと呼ばれていましたが、仏教との習合によって、弁財天女とされ、江島弁財天として信仰されるに至り、
-                            海の神、水の神の他に、幸福・財宝を招き、芸道上達の功徳を持つ神として、今日まで仰がれています。福岡の宗像大社や、広島の厳島神社と御同神でもあられます。<br>＜公式サイトより＞</p>
+    <div id="siteseeing" class="jumbotron jumbotron-fluid my-0" style="background-color: white;">
+        <div class="container basic-font">
+            <h2 class="display-6 text-center py-5 my-5 text-muted">観光 - Sightseeing</h2>
+            <ul class="nav justify-content-center flex-column flex-md-row nav-fill site-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-muted active tab-nav" href="#shrine" data-toggle="tab">江ノ島神社</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted tab-nav" href="#samueru" data-toggle="tab">サムエルコッキング苑</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted tab-nav" href="#seecandle" data-toggle="tab">江ノ島シーキャンドル</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted tab-nav" href="#uraiso" data-toggle="tab">裏磯</a>
+                </li>
+            </ul>
+        
+            <div class="tab-content py-5 text-muted">
+                <div class="tab-pane active" id="shrine">
+                    <div class="card mb-3"></div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./img/jinja.jpg" alt="" class="card-img">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">江ノ島神社</h3>
+                                <p class="card-text text-justify">
+                                    ご祭神は、天照大神あまてらすおおみかみが須佐之男命すさのおのみことと誓約された時に生まれた神で、三姉妹の女神様です。奥津宮の多紀理比賣命・中津宮の市寸島比賣命・辺津宮の田寸津比賣命の三女神を江島大神と称しています。古くは江島明神えのしまみょうじんと呼ばれていましたが、仏教との習合によって、弁財天女とされ、江島弁財天として信仰されるに至り、
+                                    海の神、水の神の他に、幸福・財宝を招き、芸道上達の功徳を持つ神として、今日まで仰がれています。福岡の宗像大社や、広島の厳島神社と御同神でもあられます。<br>＜公式サイトより＞</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-pane" id="samueru">
-                <div class="card mb-3"></div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="./img/samuel.jpg" alt="" class="card-img">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h3 class="card-title">サムエルコッキング苑</h3>
-                            <p class="card-text text-justify">江の島のサムエル・コッキング苑は、横浜の住んでいたアイルランドの貿易商サムエル・コッキングが、1882年（明治15年）に造った日本で3番目に古い植物園があった場所。
-                                1923年（大正12年）の関東大震災によって温室などが倒壊した。その後、藤沢市が跡地を買収し、1949年（昭和24年）に熱帯植物園として開園、翌年、「江の島植物園」と改名され運営されてきた。園内には読売平和塔と呼ばれた民間灯台も建設（移築）され、長く「江の島の灯台」として親しまれてきた。2002年（平成14年）に江の島植物園が園内改修工事のため閉園し、新しい江の島展望灯台が建設され、翌年、サムエル・コッキング苑として開園されている。<br>＜yoritomo-japan.comより＞</p>
+                <div class="tab-pane" id="samueru">
+                    <div class="card mb-3"></div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./img/samuel.jpg" alt="" class="card-img">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">サムエルコッキング苑</h3>
+                                <p class="card-text text-justify">
+                                    江の島のサムエル・コッキング苑は、横浜の住んでいたアイルランドの貿易商サムエル・コッキングが、1882年（明治15年）に造った日本で3番目に古い植物園があった場所。
+                                    1923年（大正12年）の関東大震災によって温室などが倒壊した。その後、藤沢市が跡地を買収し、1949年（昭和24年）に熱帯植物園として開園、翌年、「江の島植物園」と改名され運営されてきた。園内には読売平和塔と呼ばれた民間灯台も建設（移築）され、長く「江の島の灯台」として親しまれてきた。2002年（平成14年）に江の島植物園が園内改修工事のため閉園し、新しい江の島展望灯台が建設され、翌年、サムエル・コッキング苑として開園されている。<br>＜yoritomo-japan.comより＞
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-pane" id="seecandle">
-                <div class="card mb-3"></div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="./img/seecandle.jpg" alt="" class="card-img">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h3 class="card-title">江ノ島シーキャンドル</h3>
-                            <p class="card-text">江の島サムエル・コッキング苑の中にある展望灯台で、苑と同じく平成15年（2003）にリニューアルされました。避雷針まで入れた高さは59.8ｍ（海抜119.6ｍ）あり、その斬新なスタイルは江の島の新しいシンボルとして親しまれています。高さ41.75ｍ（海抜101.56ｍ）のところにガラス張りの展望フロア、さらにその上には屋外展望台があり、富士山や丹沢などのワイドな眺望が楽しめます。1階にはエントランスのほか、カフェやグッズショップ、郷土資料室などもあります。<br>＜藤沢市観光公式ホームページより＞</p>
+                <div class="tab-pane" id="seecandle">
+                    <div class="card mb-3"></div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./img/seecandle.jpg" alt="" class="card-img">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">江ノ島シーキャンドル</h3>
+                                <p class="card-text">
+                                    江の島サムエル・コッキング苑の中にある展望灯台で、苑と同じく平成15年（2003）にリニューアルされました。避雷針まで入れた高さは59.8ｍ（海抜119.6ｍ）あり、その斬新なスタイルは江の島の新しいシンボルとして親しまれています。高さ41.75ｍ（海抜101.56ｍ）のところにガラス張りの展望フロア、さらにその上には屋外展望台があり、富士山や丹沢などのワイドな眺望が楽しめます。1階にはエントランスのほか、カフェやグッズショップ、郷土資料室などもあります。<br>＜藤沢市観光公式ホームページより＞
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-pane" id="uraiso">
-                <div class="card mb-3"></div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="./img/uraiso.jpg" alt="" class="card-img">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h3 class="card-title">裏磯</h3>
-                            <p class="card-text">裏磯は江ノ島シーキャンドルをさらに進んだ先にある自然の磯場で釣りのスポットでもあります。江ノ島岩屋への道の途中にあり、相模湾を一望できます。夕方には富士山を隣に美しい夕日が見られることから江ノ島通には有名なサンセットポイントです。江の島に渡る前の橋付近から「弁天丸」と言う船で向かうこともでき、片道大人400円、わずか5分ちょっとで裏磯へ到着します。</p>
+                <div class="tab-pane" id="uraiso">
+                    <div class="card mb-3"></div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./img/uraiso.jpg" alt="" class="card-img">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">裏磯</h3>
+                                <p class="card-text">
+                                    裏磯は江ノ島シーキャンドルをさらに進んだ先にある自然の磯場で釣りのスポットでもあります。江ノ島岩屋への道の途中にあり、相模湾を一望できます。夕方には富士山を隣に美しい夕日が見られることから江ノ島通には有名なサンセットポイントです。江の島に渡る前の橋付近から「弁天丸」と言う船で向かうこともでき、片道大人400円、わずか5分ちょっとで裏磯へ到着します。
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="jumbotron jumbotron-fluid basic-font" style="background-color: #ecf1f3;">
+    <div id="history" class="jumbotron jumbotron-fluid basic-font" style="background-color: #ecf1f3;">
         <div class="container text-muted">
-            <h2 class="display-6 text-center py-5" id="history">歴史 - History</h2>
+            <h2 class="display-6 text-center py-5">歴史 - History</h2>
             <div class="row py-5">
                 <div class="col-md-6">
                     <img src="./img/iwaya.jpg" class="img-fluid rounded">
@@ -161,66 +170,73 @@
             </div>
         </div>
     </div>
-    <div class="container text-muted basic-font">
-        <h2 class="display-6 py-5 text-center" id="meal">食事 - Meal</h2>
-        <div class="row my-5">
-            <div class="col-md-6">
-                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./img/tobbicho.jpg" class="d-block w-100 rounded" alt="...">
-                            <div class="carousel-caption d-none d-md-block" style="background-color: rgba(110, 117, 124, 0.5);">
-                                <a href="http://tobiccho.com/shops/tobiccho"><h5>とびっちょ 本店</h5></a>
-                                <p>神奈川県藤沢市江の島１丁目６−７</p>
+    <div id="meal" class="jumbotron jumbotron-fluid my-0" style="background-color: white;">
+        <div class="container text-muted basic-font">
+            <h2 class="display-6 py-5 text-center">食事 - Meal</h2>
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/tobbicho.jpg" class="d-block w-100 rounded" alt="...">
+                                <div class="carousel-caption d-none d-md-block"
+                                    style="background-color: rgba(110, 117, 124, 0.5);">
+                                    <a href="http://tobiccho.com/shops/tobiccho">
+                                        <h5>とびっちょ 本店</h5>
+                                    </a>
+                                    <p>神奈川県藤沢市江の島１丁目６−７</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/eggs.jpg" class="d-block w-100 rounded" alt="...">
+                                <div class="carousel-caption d-none d-md-block"
+                                    style="background-color: rgba(110, 117, 124, 0.5);">
+                                    <a href="https://www.eggsnthingsjapan.com/shonan/">
+                                        <h5>Eggs 'n Things 湘南江の島店</h5>
+                                    </a>
+                                    <p>神奈川県藤沢市片瀬海岸２丁目１７−２３</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/pizza.jpg" class="d-block w-100 rounded" alt="...">
+                                <div class="carousel-caption d-none d-md-block"
+                                    style="background-color: rgba(110, 117, 124, 0.5);">
+                                    <a href="https://www.yyjam.com/beache">
+                                        <h5>イルキャンティ・ビーチェ</h5>
+                                    </a>
+                                    <p>神奈川県藤沢市片瀬海岸2-20-3</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="./img/eggs.jpg" class="d-block w-100 rounded" alt="...">
-                            <div class="carousel-caption d-none d-md-block" style="background-color: rgba(110, 117, 124, 0.5);">
-                                <a href="https://www.eggsnthingsjapan.com/shonan/">
-                                    <h5>Eggs 'n Things 湘南江の島店</h5>
-                                </a>
-                                <p>神奈川県藤沢市片瀬海岸２丁目１７−２３</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./img/pizza.jpg" class="d-block w-100 rounded" alt="...">
-                            <div class="carousel-caption d-none d-md-block" style="background-color: rgba(110, 117, 124, 0.5);">
-                                <a href="https://www.yyjam.com/beache">
-                                    <h5>イルキャンティ・ビーチェ</h5>
-                                </a>
-                                <p>神奈川県藤沢市片瀬海岸2-20-3</p>
-                            </div>
-                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card-body">
-                    <h3 class="card-title">海の幸と異国情緒</h3>
-                    <p class="card-text">
-                        江ノ島は海の町。漁港では毎朝新鮮な魚が水揚げされており、海鮮丼などの魚介料理屋が軒を連ねています。またサーフィンの有名なスポットと言うこともあってかどこかハワイアンなお店も多め。もちろん名産のシラスをを使ったピザなどのイタリアンを食べらるお店も沢山あります。
-                    </p>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title">海の幸と異国情緒</h3>
+                        <p class="card-text">
+                            江ノ島は海の町。漁港では毎朝新鮮な魚が水揚げされており、海鮮丼などの魚介料理屋が軒を連ねています。またサーフィンの有名なスポットと言うこともあってかどこかハワイアンなお店も多め。もちろん名産のシラスをを使ったピザなどのイタリアンを食べらるお店も沢山あります。
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="jumbotron jumbotron-fluid my-0 basic-font" style="background-image: url('./img/_DSC0405.png'); background-size: cover; color: white;">
+    <div id="access" class="jumbotron jumbotron-fluid my-0 basic-font" style="background-image: url('./img/_DSC0405.png'); background-size: cover; color: white;">
         <div class="container">
-            <h2 class="display-6 py-5 text-center" id="access">アクセス - Access</h2>
+            <h2 class="display-6 py-5 text-center anchor">アクセス - Access</h2>
             <iframe class="rounded py-5" frameborder="0" style="border:0; width: 100%; height: 60vh; margin-bottom: 30px"
                 src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBUu5tPfCq4dGl97M4p0KzJ9_S_2betbW0&q=江ノ島"
                 allowfullscreen></iframe>
