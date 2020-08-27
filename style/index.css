@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+.basic-font {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+}
+
+.img-outer {
+    position: relative;
+    width: 200px; /* 領域の幅を指定 */
+    height: 200px; /* 領域の高さを指定 */
+    margin: 1em 0;
+    background-size: cover;
+    background-image: url('../img/1243980_s.jpg');
+}
+
+.img-photo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.site-nav .active {
+    color: #a7d2ea !important;
+}
+
+.carousel-inner a {
+    color: #ecf1f3;
+    text-decoration: none;
+}
+
+.carousel-inner a:hover {
+    color: #a7d2ea;
+}
+
+.border {
+    width: 3px;
+}
+
+.homepage-icon:hover {
+    color: yellow;
+}
+
+.insta-icon:hover {
+    color: rgb(186, 64, 144);
+}
+
+.twitter-icon:hover {
+    color: rgb(111, 169, 217);
+}
+
+.navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+/* 大デバイス（デスクトップ, 1200px 未満） */
+@media (min-width: 992px) {
+ .navbar-brand h3{
+   font-size: 2.5rem;
+ }
+}
+/* 中デバイス（タブレット, 992px 未満） */
+@media (max-width: 991.98px) {
+ .navbar-brand h3{
+   font-size: 2.0rem;
+ }
+}
+/* 小デバイス（横向きモバイル, 768px 未満） */
+@media (max-width: 767.98px) {
+.navbar-brand h3{
+   font-size: 1.5rem;
+ }
+}
+/* @include media-breakpoint-up(sm) { */
+/* 極小デバイス（縦向きモバイル, 576px 未満） */
+@media (max-width: 575.98px) {
+.navbar-brand h3{
+   font-size: 1.0rem;
+ }
+}
+
+@media (max-width: 575.98px) {
+.nav-link h5{
+   font-size: 0.7rem;
+ }
+}
+
+.headerColor-default {
+  background-color: #a7d2ea;
+  /* （画像よりも下までスクロールした時に変えたい文字色） */
+}
+
+.page-top {
+    position: fixed;
+    bottom: 90px;
+    right: 40px;
+    color: #a7d2ea;
+}
